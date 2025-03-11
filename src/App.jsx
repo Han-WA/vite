@@ -21,6 +21,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           Increase {count}
         </button>
+        <p>Please click slowly!</p>
         <button onClick={() => setCount((count) => count - 1)}>
           Decrease {count}
         </button>
