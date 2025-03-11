@@ -16,10 +16,13 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Welcome to Counter App</h1>
+      <h1>Counter App</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Increment {count}
+        </button>
+        <button onClick={() => setCount((count) => count - 1)}>
+          Decrement {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
